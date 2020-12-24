@@ -1,0 +1,13 @@
+#mount all storages in meta mode
+on nonencrypted && property:ro.boot.init_rc=/meta_init.rc
+    exec - root -- /system/bin/storagemanagerd --wait volume mount_all
+
+on property:vold.decrypt=trigger_restart_framework && property:ro.boot.init_rc=/meta_init.rc
+    exec - root -- /system/bin/storagemanagerd --wait volume mount_all
+
+#mount all storages in factory mode
+on nonencrypted && property:ro.boot.init_rc=/factory_init.rc
+    exec - root -- /system/bin/storagemanagerd --wait volume mount_all
+
+on property:vold.decrypt=trigger_restart_framework && property:ro.boot.init_rc=/factory_init.rc
+    exec - root -- /system/bin/storagemanagerd --wait volume mount_all
