@@ -67,6 +67,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/teak/proprietary/lib/libem_support_jni.so:system/lib/libem_support_jni.so \
     vendor/sony/teak/proprietary/lib/libem_usb_jni.so:system/lib/libem_usb_jni.so \
     vendor/sony/teak/proprietary/lib/libem_wifi_jni.so:system/lib/libem_wifi_jni.so \
+    vendor/sony/teak/proprietary/lib/libfpc_oem.so:system/lib/libfpc_oem.so \
     vendor/sony/teak/proprietary/lib/libfpspolicy_fw.so:system/lib/libfpspolicy_fw.so \
     vendor/sony/teak/proprietary/lib/libged_sys.so:system/lib/libged_sys.so \
     vendor/sony/teak/proprietary/lib/libgralloc_extra_sys.so:system/lib/libgralloc_extra_sys.so \
@@ -74,6 +75,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/teak/proprietary/lib/libja3m.so:system/lib/libja3m.so \
     vendor/sony/teak/proprietary/lib/libjni_lomoeffect.so:system/lib/libjni_lomoeffect.so \
     vendor/sony/teak/proprietary/lib/libjni_pq.so:system/lib/libjni_pq.so \
+    vendor/sony/teak/proprietary/lib/liblights-core.so:system/lib/liblights-core.so \
     vendor/sony/teak/proprietary/lib/libmediatek_exceptionlog.so:system/lib/libmediatek_exceptionlog.so \
     vendor/sony/teak/proprietary/lib/libminiui.so:system/lib/libminiui.so \
     vendor/sony/teak/proprietary/lib/libmrdump.so:system/lib/libmrdump.so \
@@ -111,6 +113,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/teak/proprietary/lib64/libem_wifi_jni.so:system/lib64/libem_wifi_jni.so \
     vendor/sony/teak/proprietary/lib64/libfilterpack_facedetect.so:system/lib64/libfilterpack_facedetect.so \
     vendor/sony/teak/proprietary/lib64/libfingerprint_core.so:system/lib64/libfingerprint_core.so \
+    vendor/sony/teak/proprietary/lib64/libfpc_oem.so:system/lib64/libfpc_oem.so \
     vendor/sony/teak/proprietary/lib64/libfpspolicy_fw.so:system/lib64/libfpspolicy_fw.so \
     vendor/sony/teak/proprietary/lib64/libged_sys.so:system/lib64/libged_sys.so \
     vendor/sony/teak/proprietary/lib64/libgralloc_extra_sys.so:system/lib64/libgralloc_extra_sys.so \
@@ -120,6 +123,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/teak/proprietary/lib64/libjni_lomoeffect.so:system/lib64/libjni_lomoeffect.so \
     vendor/sony/teak/proprietary/lib64/libjni_pacprocessor.so:system/lib64/libjni_pacprocessor.so \
     vendor/sony/teak/proprietary/lib64/libjni_pq.so:system/lib64/libjni_pq.so \
+    vendor/sony/teak/proprietary/lib64/liblights-core.so:system/lib64/liblights-core.so \
     vendor/sony/teak/proprietary/lib64/libmediatek_exceptionlog.so:system/lib64/libmediatek_exceptionlog.so \
     vendor/sony/teak/proprietary/lib64/libminiui.so:system/lib64/libminiui.so \
     vendor/sony/teak/proprietary/lib64/libmrdump.so:system/lib64/libmrdump.so \
